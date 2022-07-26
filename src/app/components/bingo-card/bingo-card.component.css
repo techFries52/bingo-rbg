@@ -1,0 +1,15 @@
+.bgr{
+    background-color: aquamarine;
+}
+
+.tile{
+    background-color: aquamarine;
+}
+
+.crossedOff {
+    background-color: coral;
+}
+
+.col {
+    min-height: 100px;
+}

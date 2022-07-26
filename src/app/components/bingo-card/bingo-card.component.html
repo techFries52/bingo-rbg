@@ -1,0 +1,7 @@
+<div class="container-fluid">
+    <div class="row row-cols-5">
+        <div class="col bgr"  *ngFor="let tile of tiles; let i=index" (click)="handleBooleanChange(tile)" [ngClass]="{'crossedOff' : tile.isPicked}">
+            {{tile.str}}
+        </div>
+    </div>
+</div>
